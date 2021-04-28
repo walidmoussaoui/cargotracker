@@ -19,4 +19,13 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-modules-projectapi.jsf_2e_language>Facelets</org-netbeans-modules-projectapi.jsf_2e_language>
         <org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder>resources/foundation/js/foundation</org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder>
     </properties>
+    <settings>
+        <servers>
+            <server>
+            <id>http://localhost:8081</id>
+            <username>admin</username>
+            <password>wmoussaoui</password>
+            </server>
+        </servers>
+     </settings>
 </project-shared-configuration>
