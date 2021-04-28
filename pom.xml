@@ -21,6 +21,13 @@
     </properties>
 
     <!-- We need to use the PrimeFaces repository -->
+    <servers>
+        <server>
+            <id>localhost:8081</id>
+            <username>admin</username>
+            <password>wmoussaoui</password>
+        </server>
+    </servers>     
     <repositories>
         <repository>
             <id>primefaces</id>
