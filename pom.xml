@@ -20,14 +20,7 @@
         <webapp.graphTraversalUrl>http://localhost:8080/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
     </properties>
 
-    <!-- We need to use the PrimeFaces repository -->
-    <servers>
-        <server>
-            <id>localhost:8081</id>
-            <username>admin</username>
-            <password>wmoussaoui</password>
-        </server>
-    </servers>     
+    <!-- We need to use the PrimeFaces repository -->     
     <repositories>
         <repository>
             <id>primefaces</id>
@@ -49,6 +42,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <servers>
+          <server>
+            <id>http://localhost:8081</id>
+            <username>admin</username>
+            <password>wmoussaoui</password>
+          </server>
+        </servers>             
         <!-- Java EE API -->
         <dependency>
             <groupId>javax</groupId>
