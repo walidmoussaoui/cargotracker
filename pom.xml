@@ -41,14 +41,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <dependencies>
-        <servers>
-          <server>
-            <id>http://localhost:8081</id>
-            <username>admin</username>
-            <password>wmoussaoui</password>
-          </server>
-        </servers>             
+    <dependencies>            
         <!-- Java EE API -->
         <dependency>
             <groupId>javax</groupId>
@@ -56,6 +49,13 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+        <servers>
+          <server>
+            <id>http://localhost:8081</id>
+            <username>admin</username>
+            <password>wmoussaoui</password>
+          </server>
+        </servers>
 
         <!-- GlassFish specific dependencies, could go away in Java EE 8 -->
         <dependency>
