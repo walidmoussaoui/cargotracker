@@ -50,11 +50,11 @@
             <scope>provided</scope>
         </dependency>
         <servers>
-          <server>
+            <server>
             <id>http://localhost:8081</id>
             <username>admin</username>
             <password>wmoussaoui</password>
-          </server>
+            </server>
         </servers>
 
         <!-- GlassFish specific dependencies, could go away in Java EE 8 -->
