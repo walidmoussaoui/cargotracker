@@ -19,6 +19,15 @@
         <webapp.databaseTempDir>/tmp</webapp.databaseTempDir>
         <webapp.graphTraversalUrl>http://localhost:8080/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
     </properties>
+    <settings>
+        <servers>
+            <server>
+            <id>http://localhost:8081</id>
+            <username>admin</username>
+            <password>wmoussaoui</password>
+            </server>
+        </servers>
+     </settings>
 
     <!-- We need to use the PrimeFaces repository -->     
     <repositories>
@@ -49,13 +58,6 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
-        <servers>
-            <server>
-            <id>http://localhost:8081</id>
-            <username>admin</username>
-            <password>wmoussaoui</password>
-            </server>
-        </servers>
 
         <!-- GlassFish specific dependencies, could go away in Java EE 8 -->
         <dependency>
